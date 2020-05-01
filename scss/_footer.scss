@@ -1,0 +1,29 @@
+footer {
+	color: #fff;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.footer-title {
+	&::before {
+		display: none;
+	}
+
+	margin: 0 0 35px 0;
+}
+
+.contacts-footer {
+	margin: 0 0 50px 0;
+}
+
+.mwga {
+	margin: 0 0 15px 0;
+	font-weight: 700;
+	font-family: "Baloo Thambi 2";
+}
+
+.spb {
+	margin: 0 0 40px 0;
+}
