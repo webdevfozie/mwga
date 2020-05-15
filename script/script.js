@@ -68,7 +68,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	//Плавный скролл
 	var scroll = new SmoothScroll('a[href*="#"]', {
-		speed: 700
+		speed: 700,
+		offset: 80
 	});
 
 	//Модальное окно
@@ -99,4 +100,17 @@ window.addEventListener('DOMContentLoaded', () => {
 			html.classList.remove('nscroll');
 		}
 	})
+
+	//Magnific 
+	$(document).ready(function () {
+		$('.magnific-img').magnificPopup({
+			type: 'image',
+			// Delay in milliseconds before popup is removed
+			removalDelay: 300,
+
+			// Class that is added to popup wrapper and background
+			// make it unique to apply your CSS animations just to this exact popup
+			mainClass: 'mfp-fade'
+		});
+	});
 });

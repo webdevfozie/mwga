@@ -91,7 +91,44 @@ body {
   color: #ffffff;
   font-size: 45px;
   line-height: 40px;
-  margin: 0 0 0 75px;
+  margin: 0 0 20px 75px;
+  position: relative;
+  width: 190px;
+}
+
+.logo-descr {
+  position: absolute;
+  font-size: 18.5px;
+  left: 0;
+  top: 20px;
+  width: 190px;
+  opacity: 0;
+}
+
+.logo-title {
+  margin-left: 40px;
+}
+
+.logo-lb {
+  position: absolute;
+  right: 129px;
+}
+
+.logo-brackets {
+  color: #01c684;
+}
+
+.logo:hover .logo-descr {
+  opacity: 1;
+  top: 32px;
+}
+
+.logo:hover .logo-lb {
+  right: 0px;
+}
+
+.logo:hover .logo-title {
+  margin-left: 0;
 }
 
 .header {
@@ -198,6 +235,14 @@ body {
 
 .vk-link {
   margin: 0 10px;
+}
+
+#svg {
+  fill: #fff;
+}
+
+#svg:hover {
+  fill: #01c684;
 }
 
 .main-slider {
@@ -720,12 +765,22 @@ footer {
   top: 50%;
 }
 
-.modal-form input {
+.modal-form {
+  width: 100%;
+}
+
+.modal-form .input-name,
+.modal-form .input-contact {
   background: rgba(33, 43, 53, 0.5);
   border: 3px solid #01c684;
   color: #fff;
   font-size: 18px;
   padding: 3px;
+  width: 280px;
+}
+
+.succes {
+  margin: 20px auto 0px;
 }
 
 .input-contact-description {
@@ -742,6 +797,7 @@ footer {
   margin: 30px auto 0 auto;
   width: 130px;
   opacity: 0.8;
+  font-size: 21px;
 }
 
 .modal-btn:hover {

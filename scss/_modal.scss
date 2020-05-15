@@ -61,13 +61,21 @@
 }
 
 .modal-form {
-	input {
+	width: 100%;
+
+	.input-name,
+	.input-contact {
 		background: rgba(33, 43, 53, .5);
 		border: 3px solid #01c684;
 		color: #fff;
 		font-size: 18px;
 		padding: 3px;
+		width: 280px;
 	}
+}
+
+.succes {
+	margin: 20px auto 0px;
 }
 
 .input-contact-description {
@@ -84,6 +92,7 @@
 	margin: 30px auto 0 auto;
 	width: 130px;
 	opacity: 0.8;
+	font-size: 21px;
 
 	&:hover {
 		opacity: 1;
