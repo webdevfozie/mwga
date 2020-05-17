@@ -106,12 +106,12 @@ body {
 }
 
 .logo-title {
-  margin-left: 40px;
+  margin-left: 22%;
 }
 
 .logo-lb {
   position: absolute;
-  right: 129px;
+  right: 68%;
 }
 
 .logo-brackets {
@@ -124,7 +124,7 @@ body {
 }
 
 .logo:hover .logo-lb {
-  right: 0px;
+  right: 7px;
 }
 
 .logo:hover .logo-title {
@@ -173,7 +173,7 @@ body {
   position: relative;
 }
 
-.menu__list :hover {
+.menu__list :hover .menu__link {
   background-color: #01c684;
 }
 
@@ -857,6 +857,10 @@ footer {
   .logo {
     font-size: 40px;
     margin: 0 0 0 0;
+    width: 170px;
+  }
+  .logo-descr {
+    font-size: 16px;
   }
   .portfolio-slider {
     width: 100%;
@@ -984,6 +988,16 @@ footer {
     font-size: 35px;
     line-height: 40px;
     margin: 0 0 0 0;
+    width: 154px;
+  }
+  .logo-descr {
+    font-size: 15px;
+  }
+  .logo:hover .logo-descr {
+    top: 26px;
+  }
+  .logo:hover .logo-lb {
+    right: 10px;
   }
   .title-main {
     font-size: 45px;

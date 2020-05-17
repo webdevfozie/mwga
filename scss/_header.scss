@@ -19,12 +19,12 @@
 	}
 
 	&-title {
-		margin-left: 40px;
+		margin-left: 22%;
 	}
 
 	&-lb {
 		position: absolute;
-		right: 129px;
+		right: 68%;
 	}
 
 	&-brackets {
@@ -37,7 +37,7 @@
 	}
 
 	&:hover .logo-lb {
-		right: 0px;
+		right: 7px;
 	}
 
 	&:hover .logo-title {
@@ -76,7 +76,7 @@
 		display: flex;
 		position: relative;
 
-		& :hover {
+		& :hover .menu__link {
 			background-color: #01c684;
 		}
 
